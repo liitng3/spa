@@ -35,18 +35,6 @@ $(function(){
       $area.val(a);
     }
   });
-  // function clickCalc(){
-  //   e.preventDefault();
-  //   //get value
-  //   var w = Number($width .val()),
-  //       h = Number($height.val());
-  //   //calculate
-  //   var p = 2*FloatAdd(w,h),
-  //       a = FloatMul(w,h);
-  //   // output
-  //   $perimeter.val(p);
-  //   $area.val(a);
-  // }
 });
 //加法运算精度处理
 function FloatAdd(arg1,arg2){  
