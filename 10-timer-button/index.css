@@ -1,7 +1,9 @@
-input[type='button']{
+#btn{
   display: block;
-  font-size: 1.5em;
-  height: 50px;
+  background-color: tomato;
+  font-size: 1.8em;
+  height: 70px;
   margin:200px auto;
-  width: 200px;
+  color:white;
+  width: 250px;
 }
