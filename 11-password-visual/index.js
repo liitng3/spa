@@ -1,13 +1,18 @@
-$(function(){
-  var $icon = $('#icon'),
-      $pwd = $('#pwd');
-  $icon.mouseover(function(){
-    $icon.attr("class","iconfont icon-Eyeblind1");
-    $pwd.attr("type","text");
-  })
-  $icon.mouseout(function(){
-    $icon.attr("class","iconfont icon-Eyevision");
-    $pwd.attr("type","password");
 
-  })
-})
+$(function(){
+  var $pwd = $('#pwd');
+  var $pwdText = $('.pwd-text');
+  var $eye = $('#eye');
+
+  $pwd.on('input', function(){
+    $pwdText.val($pwd.val());
+  });
+
+  $eye.mouseover(function(){
+    $pwdText.css('z-index', '10');
+  });
+
+  $eye.mouseout(function(){
+    $pwdText.css('z-index', '-10');
+  });
+});
