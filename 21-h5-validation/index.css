@@ -16,7 +16,7 @@ span{
   color:red;
 }
 input:valid+span:after{
-  content:'x';
+  content:'✓';
   color:green;
 }
 input:invalid+span:after{
