@@ -27,7 +27,6 @@ require(['jquery']),function($){
         opt.title="同意";
       }
     })
-    // $timerButton.show(opt);
     $btnAdd.click(function(){
       opt.container="#main";
       opt.onClick=function(){
